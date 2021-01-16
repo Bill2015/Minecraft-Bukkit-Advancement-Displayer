@@ -1,0 +1,388 @@
+configVersion: 1
+
+advancements:
+  story:
+    0: 
+      name: mine_stone
+      chinese: 石器時代
+      level: 0
+
+    1:
+      name: upgrade_tools
+      chinese: 獲取升級
+      level: 0
+      
+    2:
+      name: smelt_iron
+      chinese: 來硬的
+      level: 0
+    
+    3:
+      name: obtain_armor
+      chinese: 整裝待發
+      level: 0
+    
+    4:
+      name: lava_bucket
+      chinese: 火熱的東西
+      level: 0
+    
+    5:
+      name: iron_tools
+      chinese: 莫非這是鐵鎬
+      level: 0
+
+    6:
+      name: deflect_arrow
+      chinese: 抱歉，今天不行
+      level: 0
+
+    7:
+      name: form_obsidian
+      chinese: 冰桶挑戰
+      level: 0
+
+    8:
+      name: mine_diamond
+      chinese: 鑽石！
+      level: 0
+
+    9:
+      name: enter_the_nether
+      chinese: 我們必須更深入一點
+      level: 0
+
+    10:
+      name: shiny_gear
+      chinese: 用鑽石包覆我
+      level: 0
+
+    11:
+      name: enchant_item
+      chinese: 附魔師
+      level: 0
+
+    12:
+      name: cure_zombie_villager
+      chinese: 殭屍醫生
+      level: 1
+
+    13:
+      name: follow_ender_eye
+      chinese: 隔牆有眼
+      level: 0
+
+    14:
+      name: enter_the_end
+      chinese: 結束了？
+      level: 0
+
+  nether:
+    0:
+      name: return_to_sender
+      chinese: 以牙還牙
+      level: 2
+
+    1:
+      name: find_bastion
+      chinese: 今非昔比
+      level: 1
+    
+    2:
+      name: obtain_ancient_debris
+      chinese: 深藏不露
+      level: 1
+    
+    3:
+      name: fast_travel
+      chinese: 子空間氣泡
+      level: 3
+    
+    4:
+      name: find_fortress
+      chinese: 可怕的要塞
+      level: 1
+
+    5:
+      name: obtain_crying_obsidian
+      chinese: 是誰在切洋蔥？
+      level: 1
+
+    6:
+      name: distract_piglin
+      chinese: 金光閃閃
+      level: 1
+    
+    7:
+      name: ride_strider
+      chinese: 「行」舟
+      level: 1
+
+    8:
+      name: uneasy_alliance
+      chinese: 不安的同盟
+      level: 4
+
+    9:
+      name: loot_bastion
+      chinese: 征戰之豬
+      level: 1
+
+    10:
+      name: use_lodestone
+      chinese: 天涯共此石
+      level: 1
+
+    11:
+      name: netherite_armor
+      chinese: 以瓦礫為壁壘
+      level: 3
+
+    12:
+      name: get_wither_skull
+      chinese: 詭異又恐怖的骷髏
+      level: 1
+
+    13:
+      name: obtain_blaze_rod
+      chinese: 與火共舞
+      level: 1
+
+    14:
+      name: charge_respawn_anchor
+      chinese: 非言「九」命
+      level: 1
+
+    15:
+      name: explore_nether
+      chinese: 「熱」門景點
+      level: 3
+
+    16:
+      name: summon_wither
+      chinese: 凋零山莊
+      level: 1
+
+    17:
+      name: brew_potion
+      chinese: 道地的釀造坊
+      level: 1
+
+    18:
+      name: create_beacon
+      chinese: 為家庭帶來光明
+      level: 1
+
+    19:
+      name: all_potions
+      chinese: 猛烈的雞尾酒
+      level: 3
+
+    20:
+      name: create_full_beacon
+      chinese: 引導者
+      level: 1
+
+    21:
+      name: all_effects
+      chinese: 我們是如何走到這地步的？
+      level: 4
+  
+  end:
+    0:
+      name: kill_dragon
+      chinese: 解放終界
+      level: 1
+    
+    1:
+      name: dragon_egg
+      chinese: 銀河飛龍
+      level: 1
+
+    2:
+      name: enter_end_gateway
+      chinese: 逃向遠方
+      level: 1
+
+    3:
+      name: respawn_dragon
+      chinese: 終界…再臨…
+      level: 1
+    
+    4:
+      name: dragon_breath
+      chinese: 你需要降火氣
+      level: 2
+
+    5:
+      name: find_end_city
+      chinese: 終末都市
+      level: 1
+
+    6:
+      name: elytra
+      chinese: 天下無難事
+      level: 2
+
+    7:
+      name: levitate
+      chinese: 上面的風景真好
+      level: 3
+
+  adventure:
+    0:
+      name: voluntary_exile
+      chinese: 自我放逐
+      level: 1
+
+    1:
+      name: kill_a_mob
+      chinese: 魔物獵人
+      level: 1
+
+    2:
+      name: trade
+      chinese: 成交！
+      level: 1
+
+    3:
+      name: honey_block_slide
+      chinese: 陷入膠著
+      level: 1
+
+    4:
+      name: ol_betsy
+      chinese: 扣下扳機
+      level: 1
+
+    5:
+      name: sleep_in_bed
+      chinese: 甜美的夢
+      level: 1
+
+    6:
+      name: hero_of_the_village
+      chinese: 村莊英雄
+      level: 2
+
+    7:
+      name: throw_trident
+      chinese: 免洗笑話
+      level: 1
+
+    8:
+      name: shoot_arrow
+      chinese: 瞄準
+      level: 1
+
+    9:
+      name: kill_all_mobs
+      chinese: 獵取怪物
+      level: 3
+
+    10:
+      name: totem_of_undying
+      chinese: 超越生死
+      level: 2
+
+    11:
+      name: summon_iron_golem
+      chinese: 招兵買馬
+      level: 1
+
+    12:
+      name: two_birds_one_arrow
+      chinese: 一箭雙鵰
+      level: 4
+
+    13:
+      name: whos_the_pillager_now
+      chinese: 現在誰才是掠奪者？
+      level: 1
+
+    14:
+      name: arbalistic
+      chinese: 重弩手
+      level: 3
+
+    15:
+      name: adventuring_time
+      chinese: 探險時光
+      level: 4
+
+    16:
+      name: very_very_frightening
+      chinese: 非常驚世駭俗
+      level: 1
+
+    17:
+      name: sniper_duel
+      chinese: 狙擊手的對決
+      level: 2
+
+    18:
+      name: bullseye
+      chinese: 正中紅心
+      level: 2
+
+  husbandry:
+    0:
+      name: safely_harvest_honey
+      chinese: 待客蜂範
+      level: 1
+
+    1:
+      name: breed_an_animal
+      chinese: 送子鳥的禮物
+      level: 1
+
+    2:
+      name: tame_an_animal
+      chinese: 永遠的好搭檔
+      level: 1
+
+    3:
+      name: fishy_business
+      chinese: 關漁生意
+      level: 1
+
+    4:
+      name: silk_touch_nest
+      chinese: 蜂裝物流
+      level: 1
+
+    5:
+      name: plant_seed
+      chinese: 汗滴禾下土
+      level: 1
+
+    6:
+      name: bred_all_animals
+      chinese: 成雙成對
+      level: 3
+
+    7:
+      name: complete_catalogue
+      chinese: 貓科全書
+      level: 4
+
+    8:
+      name: tactical_fishing
+      chinese: 戰術性捕魚
+      level: 1
+
+    9:
+      name: balanced_diet
+      chinese: 均衡飲食
+      level: 3
+
+    10:
+      name: obtain_netherite_hoe
+      chinese: 敬業樂業
+      level: 2
+
+  
+    
+    
+    
+      

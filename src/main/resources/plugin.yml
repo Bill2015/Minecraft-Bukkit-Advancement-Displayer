@@ -1,0 +1,20 @@
+name: ${project.name}
+description: ${project.description}
+version: ${project.version}
+main: com.bill.achshow.App
+api-version: 1.13
+author: Bill2015
+softdepend: []
+
+commands:
+  advancementDisplay:
+    description: Advancements Info
+    default: true
+    usage: /advancementDisplay <action>
+    aliases: [showDone, set]
+  
+  ad:
+    description: Advancements Info, but shorter
+    default: true
+    usage: /ad <action>
+    aliases: [showDone, set]
