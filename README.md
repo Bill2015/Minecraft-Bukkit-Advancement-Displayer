@@ -16,8 +16,9 @@
 ## Note:
 > This plugin only supply Traditional Chinese(繁體中文) now.
  
+---
 
-# Minecraft 插件 一 成就展示
+# Minecraft 插件 一 成就展示器
 ## 功能
 > 1. 讓玩家可以設定自己要展示的成就。
 > 2. 展示出的成就會是繁體中文名稱。
