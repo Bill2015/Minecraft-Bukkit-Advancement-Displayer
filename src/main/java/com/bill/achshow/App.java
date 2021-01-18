@@ -9,7 +9,10 @@ import com.bill.achshow.manager.AdvancementManager;
 import com.bill.achshow.manager.DataManager;
 import com.bill.achshow.manager.MessageManager;
 
+import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import net.milkbowl.vault.chat.Chat;
 
 public final class App extends JavaPlugin {
 
@@ -17,7 +20,10 @@ public final class App extends JavaPlugin {
     private MessageManager      messageManager;
     private DataManager         dataManager;
     @Override public void onEnable() {
+
+
         saveDefaultConfig();
+        
 
         advancementManager  = new AdvancementManager( this );
         messageManager      = new MessageManager();
@@ -34,6 +40,7 @@ public final class App extends JavaPlugin {
         Objects.requireNonNull( getCommand("ad") ).setTabCompleter( command );
 
         getServer().getPluginManager().registerEvents(new PlayerNameEvent(advancementManager), this);
+
     }
 
     @Override
@@ -49,6 +56,7 @@ public final class App extends JavaPlugin {
     public DataManager getDataManager() {
         return dataManager;
     }
+
 
 
 }

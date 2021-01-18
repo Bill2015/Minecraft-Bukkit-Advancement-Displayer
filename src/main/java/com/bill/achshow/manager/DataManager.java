@@ -42,7 +42,7 @@ public class DataManager {
             else break;
         }
         if (dataFile.delete()) {
-            plugin.getServer().getLogger().info("[Advancement Displayer] Loaded saved data!");
+            plugin.getLogger().info("Loaded saved data!");
         }
         return playerMap;
     }

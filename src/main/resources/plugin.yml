@@ -4,7 +4,7 @@ version: ${project.version}
 main: com.bill.achshow.App
 api-version: 1.13
 author: Bill2015
-softdepend: []
+softdepend: [Vault]
 
 commands:
   advancementDisplay:

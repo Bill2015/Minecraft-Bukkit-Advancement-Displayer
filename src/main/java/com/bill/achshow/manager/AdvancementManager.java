@@ -25,7 +25,7 @@ public class AdvancementManager {
     }
 
     private void loadPlayerData() {
-        plugin.getServer().getLogger().info("[Advancement Displayer] Waiting 2 seconds before loading saved data.");
+        plugin.getLogger().info("Waiting 2 seconds before loading saved data.");
         new BukkitRunnable() {
             @Override
             public void run() {

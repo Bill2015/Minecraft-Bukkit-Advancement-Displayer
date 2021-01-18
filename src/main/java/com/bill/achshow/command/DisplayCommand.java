@@ -85,6 +85,7 @@ public class DisplayCommand implements CommandExecutor, TabCompleter {
                             player.setPlayerListName( name );
                             player.setCustomName( name );
                             player.setCustomNameVisible( true );
+                            
 
                             //update player advancement display to a map
                             ConcurrentHashMap<UUID, AdvancementData> advanceMap = advancementManager.getPlayerAdvanceMap();
